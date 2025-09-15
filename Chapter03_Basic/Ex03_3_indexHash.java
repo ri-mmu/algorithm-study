@@ -1,4 +1,4 @@
-package Chapter03_test;
+package Chapter03_Basic;
 
 import java.io.*;
 import java.util.StringTokenizer;
