@@ -1,0 +1,19 @@
+# Java class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VSCode (혹시 쓸 때 대비)
+.vscode/
+
+# OS 별 불필요한 파일
+.DS_Store
+Thumbs.db
