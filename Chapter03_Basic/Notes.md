@@ -7,3 +7,6 @@ boolean → false
 ### 나머지 연산
 나눗셈을 제외하고, 분배 법칙 성립
 ex. (A+B) % C == (A%C + B%C) % C
+
+### import문 지식
+import java.util.*;만 있으면 거의 커버 가능
