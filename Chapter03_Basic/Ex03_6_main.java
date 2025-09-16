@@ -3,7 +3,7 @@ package Chapter03_Basic;
 import java.util.*;
 
 public class Ex03_6_main {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         ArrayList<Score> myarr = new ArrayList<>();
         myarr.add(new Score(80, 100));
         myarr.add(new Score(100, 50));

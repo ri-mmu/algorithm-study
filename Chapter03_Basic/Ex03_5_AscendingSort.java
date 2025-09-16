@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Ex03_5_AscendingSort {
 
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         int[] A = {5, 3, 2, 4, 1};
         Arrays.sort(A);
         System.out.println(Arrays.toString(A));
