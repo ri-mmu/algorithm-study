@@ -24,3 +24,20 @@ compareTo(T t)는 정수(int)를 반환하는데, 의미는 다음과 같다:
 양수 → this 객체가 t보다 "크다" (뒤에 온다)
 
 https://velog.io/@minyeongg/Comparable과-Comparator-인터페이스
+
+### ArrayList 선언
+1. ArrayList<Edge> list[] = new ArrayList<Edge>[10]; 이렇게 안 하는 이유?
+-> 자바의 제네릭은 컴파일 타임에만 존재하고, 런타임에는 지워(타입 소거, Type Erasure) 버림.
+즉, ArrayList<Edge> 와 ArrayList<String> 을 구분할 수 없음 → 둘 다 그냥 ArrayList로 보임.
+그래서 자바에서는 제네릭 타입 배열 (new ArrayList<Edge>[10])을 만들 수 없다고 막아놓음.
+
+2. 그래서 어떻게 하냐?
+   ArrayList<Edge>[] list = new ArrayList[10]; // 제네릭은 빼고 생성
+
+그리고 나서 칸마다 직접 넣어줘야 함.
+   for (int i = 0; i < 10; i++) {
+      list[i] = new ArrayList<>();
+   }
+
+그림으로 확인.
+![img.png](img.png)
