@@ -1,12 +1,12 @@
 package Chapter04_DS;
 
-import java.util.*;
-
 // BOJ 1920: 수 찾기
 // 아이디어: 문자열 -> 문자 배열 -> 숫자
 // 시간복잡도: N
 
-public class P11720_숫자의합 {
+import java.util.*;
+
+public class P01_B11720_숫자의합 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
