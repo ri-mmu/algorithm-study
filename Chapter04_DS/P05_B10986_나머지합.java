@@ -17,7 +17,7 @@ public class P05_B10986_나머지합 {
             S[i]= S[i-1] + sc.nextInt();
         }
         for (int i = 0; i < N; i++) {
-            int reminder = (int)S[i] % M;
+            int reminder = (int)((S[i] % M + M) % M);
             if (reminder == 0) answer++;
             C[reminder]++;
         }
