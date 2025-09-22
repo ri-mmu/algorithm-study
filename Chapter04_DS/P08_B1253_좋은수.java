@@ -31,7 +31,7 @@ public class P08_B1253_좋은수 {
                     } else if (j == k) {
                         j--;
                     }
-                } else if (A[i] + A[j] > k) {
+                } else if (A[i] + A[j] > find) {
                     j--;
                 } else {
                     i++;
