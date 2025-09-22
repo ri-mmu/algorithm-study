@@ -1,6 +1,6 @@
 package Chapter04_DS;
 
-// 아이디어: 포인터 두개
+// 아이디어: 투 포인터
 // 시간복잡도: n
 
 import java.util.Scanner;
